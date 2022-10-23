@@ -38,7 +38,7 @@ def download(videoid: str, mystic, title) -> str:
                 try:
                     if eta > 2:
                         mystic.edit(
-                            f"**» {BOT_NAME} ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**\n\n**ᴛɪᴛʟᴇ :** {title}\n**sɪᴢᴇ :** {size}\n\n**<u>ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ :</u>**\n**sᴩᴇᴇᴅ :** {speed}\n**ᴇᴛᴀ :** {eta} sᴇᴄᴏɴᴅs\n\n\n{percentage} ─────────── 100%"
+                            f"**» {BOT_NAME} ᴘʟᴀʏᴇʀ**\n\n**ᴛɪᴛʟᴇ :** {title}\n**sɪᴢᴇ :** {size}\n\n**<u>ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ :</u>**\n**sᴩᴇᴇᴅ :** {speed}\n**ᴇᴛᴀ :** {eta} sᴇᴄᴏɴᴅs\n\n\n{percentage} ─────────── 100%"
                         )
                 except Exception as e:
                     pass
@@ -70,7 +70,7 @@ def download(videoid: str, mystic, title) -> str:
                 taken = "00:00"
             size = d["_total_bytes_str"]
             mystic.edit(
-                f"**» {BOT_NAME} ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**\n\n**ᴛɪᴛʟᴇ :** {title}\n\n100% ■■■■■■■■■■■■ 100%\n\n**ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ᴍᴜsɪᴄ ʙᴀʙʏ ♡**"
+                f"**» {BOT_NAME} ᴘʟᴀʏᴇʀ**\n\n**ᴛɪᴛʟᴇ :** {title}\n\n100% ■■■■■■■■■■■■ 100%\n\n**ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ᴍᴜsɪᴄ ʙᴀʙʏ ♡**"
             )
 
     ydl_optssx = {
