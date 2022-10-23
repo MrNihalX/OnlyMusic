@@ -70,7 +70,7 @@ async def fallen_boot():
     with console.status(
         "[magenta] Booting Nihal Music Bot...",
     ) as status:
-        console.print("┌ [red]Booting Fallen Music Clients...\n")
+        console.print("┌ [red]Booting Nihal Music Clients...\n")
         await app.start()
         await Ass.start()
         console.print("└ [green]Clients Booted Successfully!")
