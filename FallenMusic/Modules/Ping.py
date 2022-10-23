@@ -29,7 +29,8 @@ async def fallen_ping():
 ✨ ᴜᴩᴛɪᴍᴇ : {get_readable_time((uptime))}
 ☁ ᴄᴩᴜ : {cpu}%
 ❄ ʀᴀᴍ : {mem}%
-💠 ᴅɪsᴋ : {disk}%"""
+💠 ᴅɪsᴋ : {disk}%
+ » ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [˹ɴɪʜᴀʟ˼](https://t.me/Mr_Nihal9) """
     return fallen
 
 @app.on_message(filters.command("alive"))
